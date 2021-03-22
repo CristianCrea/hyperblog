@@ -9,10 +9,25 @@ body {
 
 #container {
   width: 70%;
-  padding: 1em;
+  padding: 0;
   text-align: left;
   border: 1px solid #ddd;
   margin: 0 auto;
+}
+
+#cabecera {
+  background-color: #37af5b;
+  color: white;
+  margin: 0;
+  padding: 0.5em;
+  font-weight: bold;
+  box-shadow: 0px 10px 13px -7px #000000, 6px 5px 7px 5px rgba(0, 0, 0, 0.02);
+}
+
+#cabecera #tagline {
+  padding: 0 0 0 1em;
+  font-weight: normal;
+  font-size: 0.8em;
 }
 
 #container h1 {
